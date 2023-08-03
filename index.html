@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="indexbody">
+    <header class="Header" style="text-align: center;">
+      <a href="calculator.html"><button class="butt">CALCULATOR</button></a>
+      <a href="todolist.html"><button class="butt">To Do List</button></a>
+    </header>
+    <div class="calculator" style="text-align:justify;">
+      <div class="calcibody">
+        <div class="hh">
+          <h1>CALCULATOR</h1>
+        </div>
+        <div>
+          <p><input type="text" id="outputbox" value="" name="result" /></p>
+        </div>
+        <div>
+          <!-- <button onclick= "insert(1)"class="nuop">1</button> -->
+          <input class="nuop" type="button" value="1" onclick="insert('1')" />
+          <input class="nuop" type="button" value="2" onclick="insert(2)" />
+          <input class="nuop" type="button" value="3" onclick="insert(3)" />
+        </div>
+
+        <input class="nuop" type="button" value="4" onclick="insert(4)" />
+        <input class="nuop" type="button" value="5" onclick="insert(5)" />
+        <input class="nuop" type="button" value="6" onclick="insert(6)" />
+        <div></div>
+
+        <div>
+          <input class="nuop" type="button" value="7" onclick="insert(7)" />
+          <input class="nuop" type="button" value="8" onclick="insert(8)" />
+          <input class="nuop" type="button" value="9" onclick="insert(9)" />
+        </div>
+
+        <div>
+          <input class="nuop" type="button" value="0" onclick="insert(0)" />
+          <input class="nuop" type="button" value="+" onclick="insert('+')" />
+          <input class="nuop" type="button" value="-" onclick="insert('-')" />
+        </div>
+
+        <div>
+          <input class="nuop" type="button" value="/" onclick="insert('/')" />
+          <input class="nuop" type="button" value="*" onclick="insert('*')" />
+          <input class="nuop" type="button" value="C" onclick="clr()" />
+        </div>
+
+        <div>
+          <input
+            class="equal"
+            id="Equal"
+            type="button"
+            value="="
+            onclick="calc()"
+          />
+        </div>
+      </div>
+    </div>
+
+ 
+  </body>
+  <script src="calci.js"></script>
+</html>

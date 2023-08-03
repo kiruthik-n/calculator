@@ -1,0 +1,82 @@
+
+  .hh {
+    font-size: 20px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  }
+  .calcibody {
+    background-color: rgba(74, 70, 70, 0.5);
+    margin: 10%;
+    padding: 10%;
+    text-align: center;
+    /* border: solid; */
+  }
+  .equal {
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    justify-items: center;
+  }
+  .outputbox {
+    background-color: rgb(247, 247, 247);
+    padding: 10px;
+  }
+  .indexbody {
+background-color: chartreuse;    background-size: cover;
+  }
+  /* .fo .label{
+      /* text-align: left; 
+      justify-content: left;
+  } */
+  .butt {
+    text-align: center;
+    background: #060606;
+    color: #fcfbfb;
+  
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .butt:hover {
+    background: #fcfbfb;
+    color: #060606;
+  }
+  
+ 
+  
+
+  .display {
+    text-align: center;
+    padding-bottom: 40%;
+  }
+  #message {
+    background: white;
+    text-align: center;
+    padding: 10px;
+    margin: 30%;
+    display: none;
+  }
+  
+  .nuop {
+    padding: 10px 10px 10px 10px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    justify-items: center;
+  }
+  
+  #outputbox {
+    padding: 10px 10px 10px 10px;
+    width: 175px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+  }
+ 
+  
+  /* TO_DO LIST*/
+  
